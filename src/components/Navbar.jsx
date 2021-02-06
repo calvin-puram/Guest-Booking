@@ -17,8 +17,7 @@ const Navbar = () => {
           <span className="navbar-brand font-weight-bolder">
             <img src={Logo} alt="logo" width="50px" />
           </span>
-          <a
-            href="void(0)"
+          <button
             className="navbar-toggler border-0"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -29,7 +28,7 @@ const Navbar = () => {
             <span>
               <FaAlignRight className="nav-icon" />
             </span>
-          </a>
+          </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
